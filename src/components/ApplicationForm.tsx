@@ -19,8 +19,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Calendar } from '@/components/ui/calendar';
 import { format } from 'date-fns';
 import { CalendarIcon } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { ApplicationForm } from '@/types/application';
+import { cn } from ' @/lib/utils';
 
 const formSchema = z.object({
   name: z.string().min(1, { message: '名前は必須です。' }),

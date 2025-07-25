@@ -1,1 +1,1 @@
-feat: Initial commit of MEC App based on requirements
+fix: Resolve Vercel deployment errors (autoprefixer, next-themes, use-toast import)
