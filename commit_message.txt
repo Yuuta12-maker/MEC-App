@@ -1,1 +1,1 @@
-fix: Resolve remaining Vercel deployment errors
+fix: Re-apply ApplicationForm.tsx import fix
