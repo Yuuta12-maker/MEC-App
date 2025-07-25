@@ -1,1 +1,1 @@
-fix: Resolve Vercel deployment errors (autoprefixer, next-themes, use-toast import)
+fix: Resolve remaining Vercel deployment errors
