@@ -8,7 +8,7 @@ import { Switch } from '@/components/ui/switch';
 import { useTheme } from 'next-themes';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { toast } from '@/components/ui/use-toast';
+import { toast } from '@/hooks/use-toast';
 
 function SettingsPage() {
   const { theme, setTheme } = useTheme();

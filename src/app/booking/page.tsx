@@ -6,7 +6,7 @@ import { db } from '@/lib/firebase';
 import { collection, addDoc, serverTimestamp, onSnapshot, query, where } from 'firebase/firestore';
 import * as z from 'zod';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { toast } from '@/components/ui/use-toast';
+import { toast } from '@/hooks/use-toast';
 import { Session } from '@/types/session';
 import { Client } from '@/types/client';
 
